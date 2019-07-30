@@ -1,5 +1,6 @@
 
 //Definition for singly-linked list.
+/*
 class ListNode {
     int val;
     ListNode next;
@@ -8,7 +9,9 @@ class ListNode {
         val = x;
     }
 }
+*/
 
+/*
 public class Solution83 {
     public ListNode deleteDuplicates(ListNode head) {
         if(head==null){
@@ -27,4 +30,4 @@ public class Solution83 {
         }
         return head;
     }
-}
+}*/

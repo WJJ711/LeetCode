@@ -1,8 +1,10 @@
-import javax.swing.tree.TreeNode;
-
+/**
+ * @author wjj
+ */
 public class Client {
     public static void main(String[] args) {
-        int i = new Solution().mySqrt(2147395599);
+        int[] nums={1,2,3,4,5,6,7};
+        new Solution().rotate(nums,3);
 
     }
 }

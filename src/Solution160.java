@@ -7,6 +7,7 @@
         next = null;
     }
 }*/
+/*
 public class Solution160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA==null||headB==null){
@@ -21,4 +22,4 @@ public class Solution160 {
             return pA;
         }
     }
-}
+}*/

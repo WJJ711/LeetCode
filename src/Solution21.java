@@ -12,7 +12,7 @@
 /**
  * 使用递归
  */
-public class Solution21{
+/*public class Solution21{
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         //递归头
         if(l1==null){
@@ -29,7 +29,7 @@ public class Solution21{
             return l2;
         }
     }
-}
+}*/
 
 /**
  * 法二，使用头结点，迭代
