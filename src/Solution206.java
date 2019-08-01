@@ -1,15 +1,16 @@
 import java.util.List;
 
 //Definition for singly-linked list.
-class ListNode {
+/*class ListNode {
     int val;
     ListNode next;
     ListNode(int x) { val = x; }
-}
+}*/
 
 /**
  * 递归
  */
+/*
 public class Solution206 {
     public ListNode reverseList(ListNode head) {
         if(head==null){
@@ -24,6 +25,7 @@ public class Solution206 {
         return listNode;
     }
 }
+*/
 
 /**
  * 迭代

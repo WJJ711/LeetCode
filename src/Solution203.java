@@ -32,6 +32,7 @@ public class Solution {
 /**
  * 递归
  */
+/*
 public class Solution203 {
     public ListNode removeElements(ListNode head, int val) {
         if(head==null){
@@ -44,4 +45,4 @@ public class Solution203 {
             return head;
         }
     }
-}
+}*/
