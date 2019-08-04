@@ -28,6 +28,7 @@ public class Solution {
  * BFS
  */
 
+/*
 public class Solution226 {
     public TreeNode invertTree(TreeNode root) {
         if (root==null){
@@ -50,4 +51,4 @@ public class Solution226 {
         }
         return root;
     }
-}
+}*/
