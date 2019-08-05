@@ -3,7 +3,9 @@
  */
 public class Client {
     public static void main(String[] args) {
-        String s = new Solution().toHex(-1);
+        String num1="9";
+        String num2="98";
+        String s = new Solution().addStrings(num1, num2);
 
     }
 }
