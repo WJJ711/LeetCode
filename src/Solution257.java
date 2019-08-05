@@ -4,7 +4,7 @@ import java.util.List;
 
 
 //Definition for a binary tree node.
-class TreeNode {
+/*class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -12,7 +12,7 @@ class TreeNode {
     TreeNode(int x) {
         val = x;
     }
-}
+}*/
 
 /**
  * 法一：递归，StringBuilder
@@ -72,6 +72,7 @@ public class Solution {
 /**
  * 迭代BFS
  */
+/*
 public class Solution257 {
     public List<String> binaryTreePaths(TreeNode root) {
         LinkedList<String> paths = new LinkedList<>();
@@ -100,4 +101,4 @@ public class Solution257 {
         }
         return paths;
     }
-}
+}*/
