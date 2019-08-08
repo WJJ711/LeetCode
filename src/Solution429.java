@@ -53,7 +53,7 @@ class Solution {
  * 法二：递归
  */
 
-class Solution {
+public class Solution429 {
     public List<List<Integer>> levelOrder(Node root) {
         List<List<Integer>> res = new ArrayList<>();
         if(root==null){

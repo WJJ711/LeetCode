@@ -1,11 +1,12 @@
+import java.util.List;
+
 /**
  * @author wjj
  */
 public class Client {
     public static void main(String[] args) {
-        String num1="9";
-        String num2="98";
-        String s = new Solution().addStrings(num1, num2);
+        int[] a={4,3,2,7,8,2,3,1};
+        List<Integer> disappearedNumbers = new Solution().findDisappearedNumbers(a);
 
     }
 }

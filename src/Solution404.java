@@ -1,12 +1,17 @@
 
 //Definition for a binary tree node.
+/*
 class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
     TreeNode(int x) { val = x; }
 }
+*/
 
+
+
+/*
 public class Solution404 {
     private int res=0;
     public int sumOfLeftLeaves(TreeNode root) {
@@ -17,7 +22,7 @@ public class Solution404 {
         helper(root.right,0);
         return res;
     }
-    private void helper(TreeNode node,int x){
+    private void helper(TreeNode node, int x){
         if(node==null){
             return ;
         }
@@ -28,4 +33,4 @@ public class Solution404 {
         helper(node.left,1);
         helper(node.right,0);
     }
-}
+}*/
