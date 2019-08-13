@@ -5,8 +5,12 @@ import java.util.List;
  */
 public class Client {
     public static void main(String[] args) {
-        int[] a={4,3,2,7,8,2,3,1};
-        List<Integer> disappearedNumbers = new Solution().findDisappearedNumbers(a);
-
+        TreeNode t1 = new TreeNode(1);
+        TreeNode t20 = new TreeNode(2);
+        TreeNode t21 = new TreeNode(2);
+        t1.right=t20;
+        t20.left=t21;
+        int[] mode = new Solution().findMode(t1);
     }
+
 }
