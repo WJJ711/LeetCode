@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 // Definition for a Node.
-class Node {
+/*class Node {
     public int val;
     public List<Node> children;
 
@@ -16,7 +16,7 @@ class Node {
         val = _val;
         children = _children;
     }
-};
+};*/
 
 /**
  * 法一：迭代
@@ -53,6 +53,7 @@ class Solution {
  * 法二：递归
  */
 
+/*
 public class Solution429 {
     public List<List<Integer>> levelOrder(Node root) {
         List<List<Integer>> res = new ArrayList<>();
@@ -75,4 +76,4 @@ public class Solution429 {
             helper(c,depth+1,res);
         }
     }
-}
+}*/
